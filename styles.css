@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	gap:170px
+}
+.left-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.left-container img{
+	width:100px;
+	height:100px;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+}
+.right-container{
+	border:1px solid grey;
+	padding:10px;
+	text-align:center
+}
+.login{
+	background-color:blue;
+	color:white;
+}
+.new {
+	background-color:green;
+	color:white;
+}
